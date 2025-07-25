@@ -1,8 +1,9 @@
 name = "glide-print-worker"
 type = "javascript"
-account_id = "YOUR_ACCOUNT_ID"
+account_id = "85e63dac63f5a36dc623250ff697afa3"
 workers_dev = true
 main = "src/index.js"
+compatibility_date = "2025-07-25"  # 👈 This line fixes the error
 
 [build]
 upload.format = "modules"
