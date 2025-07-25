@@ -1,5 +1,8 @@
 name = "glide-print-worker"
 type = "javascript"
-account_id = "85e63dac63f5a36dc623250ff697afa3"
+account_id = "YOUR_ACCOUNT_ID"
 workers_dev = true
 main = "src/index.js"
+
+[build]
+upload.format = "modules"
