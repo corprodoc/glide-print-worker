@@ -12,7 +12,7 @@ export default {
     }
 
     // ⚠️ Replace with your local IP (from the Print Agent setup)
-    const response = await fetch("http://192.168.1.123:4000/print", {
+    const response = await fetch("http://192.168.29.132:4000/print", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ urls })
