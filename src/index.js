@@ -17,8 +17,8 @@ export default {
 
       console.log("✅ Parsed JSON:", JSON.stringify(data, null, 2));
 
-      // 👉 Update to YOUR actual local IP address!
-      const response = await fetch("http://192.168.29.132:4000/print", {
+      // ✅ Use your public Cloudflare Tunnel URL!
+      const response = await fetch("https://identifies-additionally-regards-optimum.trycloudflare.com/print", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
