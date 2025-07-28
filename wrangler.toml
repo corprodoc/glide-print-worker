@@ -7,3 +7,7 @@ compatibility_date = "2025-07-25"  # 👈 This line fixes the error
 
 [build]
 upload.format = "modules"
+
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = false
