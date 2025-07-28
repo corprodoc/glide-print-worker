@@ -18,7 +18,7 @@ export default {
       console.log("✅ Parsed JSON:", JSON.stringify(data, null, 2));
 
       // ✅ Use your public Cloudflare Tunnel URL!
-const response = await fetch(" https://papers-birds-curriculum-stainless.trycloudflare.com/print", {
+const response = await fetch("https://alaska-ave-identified-law.trycloudflare.com/print", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
